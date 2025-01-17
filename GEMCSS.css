@@ -1,0 +1,423 @@
+/* The website structure CSS code*/
+html {
+    min-height:100%;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(ballkondrinit.jpg);
+    background-size: auto;
+    background-repeat:repeat;
+    background-position: center;
+    min-height: 100%;
+}
+
+.container{
+    width: 90%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Title design*/
+.title{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    background-color: rgba(230, 215, 0, 0.682);
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title h1{
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+/* Design for the page navigation bar*/
+.pagenavigation{
+    background-color: rgba(121, 253, 244, 0.5);
+    padding: 10px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(150, 92, 0);
+}
+
+.pagenavigation h2{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight:bolder;
+
+}
+
+/* Design for details on how to use the website*/
+.steps{
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    background-color: rgba(245, 245, 245, 0.726);
+    color: rgb(17, 3, 170);
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+
+/* background for top table*/
+.table-container {
+    background-color: rgba(102, 245, 0, 0.625); 
+    padding: 20px; 
+    margin-top: 20px; /
+}
+
+/* Design for the top table*/
+#mainServices{
+    border-collapse: collapse;
+    width: 100%;
+    color: blue;
+}
+
+#mainSevicess td, #mainServices th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #mainServices tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #mainServices tr:hover {background-color: #ddd;}
+  
+  #mainServices th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #e9c846;
+    color: white;
+  }
+
+  #mainServices{
+    border-collapse: collapse;
+    width: 100%;
+    color: blue;
+}
+
+/* Background for the second table*/
+.table-container2 {
+    background-color: rgba(54, 223, 242, 0.625); 
+    padding: 20px; 
+    margin-top: 20px; /
+}
+
+/* Design for the second table*/
+#privateServices{
+    border-collapse: collapse;
+    width: 100%;
+    color: blue;
+}
+
+#privateSevicess td, #privateServices th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #privateServices tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #privateServices tr:hover {background-color: #ddd;}
+  
+  #privateServices th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #e9c846;
+    color: white;
+  }
+
+  #privateServices{
+    border-collapse: collapse;
+    width: 100%;
+    color: blue;
+}
+
+/* Background for the third table*/
+.table-container3 {
+    background-color: rgba(255, 0, 0, 0.779); 
+    padding: 20px; 
+    margin-top: 20px; /
+}
+
+.table-container3 h3{
+    color: yellowgreen;
+    font-size: 25px;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#teamtable{
+    border: inset;
+    width: 100%;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(10, 151, 0);
+}
+
+#teamtable td, #teamtable th {
+    border: 1px double #008514;
+    padding: 8px;
+  }
+  
+  #teamtable tr:nth-child(even){background-color: #f2f2f2;}
+  #teamtable tr:nth-child(odd){background-color: #cfbe3df4;}
+
+  
+  #teamtable tr:hover {background-color: #ddd;}
+  
+  #teamtable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #27efd1;
+    color: rgb(0, 0, 0);
+  }
+
+  #teamtable{
+    border:#ba82008d;
+    width: 100%;
+    color: rgb(10, 151, 0);
+}
+
+/* Design for the video call form*/
+#VideoCallForm{
+    background-color: rgba(43, 255, 23, 0.671);
+    padding: 20px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+ 
+    #VideoCallForm a:hover {
+        color: rgb(179, 69, 6); 
+        text-decoration: underline; 
+    }
+
+    #VideoCallForm input[type="text"]{
+    color: rgb(221, 46, 241);
+    width: 700px;
+    font-size: 14px;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+    #VideoCallForm input[type="checkbox"]{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    
+/* Design for the modal */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); 
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #42b400;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #b9982f;
+    width: 80%;
+    max-width: 500px;
+}
+
+/* Modal close button */
+.close-btn {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 495px;
+    margin-top: 140px;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Design for the reviews section*/
+.reviews{
+    background-color: rgba(255, 221, 0, 0.455);
+    padding: 20px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+/* Design for the payrate table*/
+.table-container4 {
+    background-color: rgba(173, 160, 176, 0.629); 
+    padding: 20px; 
+    margin-top: 20px; /
+}
+
+/* Design for the payrate table*/
+#payrate{
+    border: groove;
+    width: 100%;
+   
+}
+#payrate td, #payrate th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #payrate tr:nth-child(even){background-color: #f2f2f2;}
+  #payrate tr:nth-child(odd){background-color: #c86e71;}
+  
+  #payrate tr:hover {background-color: #ddd;}
+  
+  #payrate th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #16c757ab;
+    color: white;
+  }
+
+  #payrate{
+    border-collapse: collapse;
+    width: 100%;
+    color: blue;
+}
+
+/*Design for the "Our Values" section*/
+.ourvalues{
+    background-color: rgba(43, 33, 33, 0.656);
+    padding: 20px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* Design for the potential supplier form*/
+#supplyform{
+    background-color: rgba(0, 0, 0, 0.678);
+    padding: 20px;
+    margin-top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+/* Design for the formatitude section*/
+#formatitude{
+    background-color: seagreen;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Design for the PPE section*/
+.PPE{
+    background-color: rgba(0, 0, 0, 0.678);
+    padding: 20px;
+    margin-top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+/* General styling for the "offer" list */
+.offer {
+    list-style-image: url('tick.png'); 
+    padding-left: 40px;               
+}
+
+/* General styling for the "provide" list */
+.provide {
+    list-style-image: url('cross.png');
+    padding-left: 40px;                 
+}
+
+
+/* Background for the qoute form*/
+.Main__services{
+    background-color: rgba(35, 224, 76, 0.782);
+    padding: 20px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Slide show design */
+.slideshow-container {
+    padding-top: 20px;
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden; 
+    height: 500px; 
+}
+
+.mySlides {
+    display: none;
+    height: 100%; 
+}
+
+.mySlides img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+}
+
+img.displayslide {
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* Foward/previous image buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    z-index: 1; 
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
